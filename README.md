@@ -12,6 +12,6 @@ Veri setimizi sample.py kullanarak hazırlıyoruz. Daha sonra train.py ile eğit
 
 
 
-![](Desktop_220526_0801.jpg)
+![](Img/Desktop_220526_0801.jpg)
 
-![](Desktop_220526_0801_1.jpg)
+![](Img/Desktop_220526_0801_1.jpg)

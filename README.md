@@ -9,3 +9,9 @@ Wir bereiten unseren Datensatz mit samples.py vor. Dann trainieren wir durch tra
 
 
 Veri setimizi sample.py kullanarak hazırlıyoruz. Daha sonra train.py ile eğitip, detect.py ile yüz tanıma işlemini gerçekleştiriyoruz.
+
+
+
+![](Desktop_220526_0801.jpg)
+
+![](Desktop_220526_0801_1.jpg)

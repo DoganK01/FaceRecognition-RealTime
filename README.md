@@ -3,7 +3,7 @@ We prepare our dataset using samples.py. Then we train with train.py and perform
 
 
 
-Wir bereiten unseren Datensatz mit samples.py vor. Dann trainieren wir durch train.py und führen die Gesichtserkennung durch detect.py durch.
+Wir sammeln unsere Daten mit samples.py. Dann trainieren wir durch train.py und führen die Gesichtserkennung durch detect.py durch.
 
 
 

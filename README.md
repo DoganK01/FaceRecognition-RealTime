@@ -1,3 +1,7 @@
+FACE RECOGNITION - REAL TIME
+
+
+
 We prepare our dataset using samples.py. Then we train with train.py and perform face recognition through detect.py.
 
 

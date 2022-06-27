@@ -72,15 +72,23 @@ while True:
         if confidence > 80:
             font = cv2.FONT_HERSHEY_DUPLEX
             color = (0, 255, 0)
-            name = "Device Unlocked"
+            name = "Welcome"
             stroke = 2
             cv2.putText(image, name, (250, 450), font, 1, color, 2)
             cv2.imshow('Face Cropper', image)
 
+        else:
+            font = cv2.FONT_HERSHEY_DUPLEX
+            color = (0, 0, 255)
+            name = "Device Locked"
+            stroke = 2
+            cv2.putText(image, name, (250, 450), font, 1, color, 2)
+            cv2.imshow('Face Cropper', image)
+            
     else:
         font = cv2.FONT_HERSHEY_DUPLEX
         color = (0, 0, 255)
-        name = "Device Locked"
+        name = "Cannot detect Face"
         stroke = 2
         cv2.putText(image, name, (250, 450), font, 1, color, 2)
         cv2.imshow('Face Cropper', image)

@@ -61,7 +61,7 @@ while True:
 
         if probVal > 0:
             confidence = probVal * 100
-            dis = str(probVal * 100) + "% similar"
+            dis = f"{probVal * 100:.2f}% similar"
             pkq = "class: " + str(classIndex)
 
         font = cv2.FONT_HERSHEY_DUPLEX
@@ -69,7 +69,7 @@ while True:
         name = dis + " " + pkq
         cv2.putText(image, name, (100, 120), font, 1, color, 2)
 
-        if confidence > 80:
+        if confidence > 90:
             font = cv2.FONT_HERSHEY_DUPLEX
             color = (0, 255, 0)
             name = "Welcome"
